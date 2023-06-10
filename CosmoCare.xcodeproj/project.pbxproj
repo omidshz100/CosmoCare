@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D90CBA472A3455DA00BD0D16 /* DatePicketSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CBA462A3455DA00BD0D16 /* DatePicketSheet.swift */; };
+		D90CBA492A34774C00BD0D16 /* CameraDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CBA482A34774C00BD0D16 /* CameraDetector.swift */; };
 		D9B7257C2A33FBFC009A618B /* CosmoCareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B7257B2A33FBFC009A618B /* CosmoCareApp.swift */; };
 		D9B7257E2A33FBFC009A618B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B7257D2A33FBFC009A618B /* ContentView.swift */; };
 		D9B725802A33FBFD009A618B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9B7257F2A33FBFD009A618B /* Assets.xcassets */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D90CBA462A3455DA00BD0D16 /* DatePicketSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicketSheet.swift; sourceTree = "<group>"; };
+		D90CBA482A34774C00BD0D16 /* CameraDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraDetector.swift; sourceTree = "<group>"; };
 		D9B725782A33FBFC009A618B /* CosmoCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CosmoCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9B7257B2A33FBFC009A618B /* CosmoCareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmoCareApp.swift; sourceTree = "<group>"; };
 		D9B7257D2A33FBFC009A618B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -36,6 +40,47 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D90CBA4A2A34778900BD0D16 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D9B7257D2A33FBFC009A618B /* ContentView.swift */,
+				D90CBA462A3455DA00BD0D16 /* DatePicketSheet.swift */,
+				D90CBA482A34774C00BD0D16 /* CameraDetector.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D90CBA4B2A34779000BD0D16 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D90CBA532A34795D00BD0D16 /* ContentView */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D90CBA4C2A34779800BD0D16 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				D90CBA522A34794A00BD0D16 /* ContentView */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		D90CBA522A34794A00BD0D16 /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				D9B725892A33FF72009A618B /* MainViewModel.swift */,
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
+		D90CBA532A34795D00BD0D16 /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
 		D9B7256F2A33FBFC009A618B = {
 			isa = PBXGroup;
 			children = (
@@ -55,12 +100,13 @@
 		D9B7257A2A33FBFC009A618B /* CosmoCare */ = {
 			isa = PBXGroup;
 			children = (
-				D9B7258B2A33FF9C009A618B /* Extention */,
 				D9B7257B2A33FBFC009A618B /* CosmoCareApp.swift */,
-				D9B7257D2A33FBFC009A618B /* ContentView.swift */,
 				D9B7257F2A33FBFD009A618B /* Assets.xcassets */,
+				D90CBA4A2A34778900BD0D16 /* View */,
+				D90CBA4C2A34779800BD0D16 /* ViewModel */,
+				D90CBA4B2A34779000BD0D16 /* Model */,
+				D9B7258B2A33FF9C009A618B /* Extention */,
 				D9B725812A33FBFD009A618B /* Preview Content */,
-				D9B725892A33FF72009A618B /* MainViewModel.swift */,
 			);
 			path = CosmoCare;
 			sourceTree = "<group>";
@@ -153,6 +199,8 @@
 			files = (
 				D9B7258D2A33FFC2009A618B /* Extentions.swift in Sources */,
 				D9B7257E2A33FBFC009A618B /* ContentView.swift in Sources */,
+				D90CBA492A34774C00BD0D16 /* CameraDetector.swift in Sources */,
+				D90CBA472A3455DA00BD0D16 /* DatePicketSheet.swift in Sources */,
 				D9B7257C2A33FBFC009A618B /* CosmoCareApp.swift in Sources */,
 				D9B7258A2A33FF72009A618B /* MainViewModel.swift in Sources */,
 			);
