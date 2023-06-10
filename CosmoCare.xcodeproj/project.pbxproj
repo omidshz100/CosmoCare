@@ -8,9 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		D90CBA472A3455DA00BD0D16 /* DatePicketSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CBA462A3455DA00BD0D16 /* DatePicketSheet.swift */; };
-		D90CBA492A34774C00BD0D16 /* CameraDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CBA482A34774C00BD0D16 /* CameraDetector.swift */; };
 		D90CBA562A3479CF00BD0D16 /* ex-DateComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CBA552A3479CF00BD0D16 /* ex-DateComponents.swift */; };
 		D90CBA582A3479E200BD0D16 /* ex-String.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CBA572A3479E200BD0D16 /* ex-String.swift */; };
+		D90CBA5B2A347A8A00BD0D16 /* DetectorCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CBA5A2A347A8A00BD0D16 /* DetectorCamera.swift */; };
+		D90CBA602A348BC100BD0D16 /* FrameManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CBA5D2A348BC100BD0D16 /* FrameManager.swift */; };
+		D90CBA612A348BC100BD0D16 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CBA5E2A348BC100BD0D16 /* CameraManager.swift */; };
+		D90CBA622A348BC100BD0D16 /* CameraError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CBA5F2A348BC100BD0D16 /* CameraError.swift */; };
+		D90CBA682A348D1800BD0D16 /* ViewModelNew.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CBA672A348D1800BD0D16 /* ViewModelNew.swift */; };
+		D90CBA6B2A348D5900BD0D16 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CBA6A2A348D5900BD0D16 /* Constants.swift */; };
+		D90CBA6D2A348E2B00BD0D16 /* ex-CGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CBA6C2A348E2B00BD0D16 /* ex-CGImage.swift */; };
 		D9B7257C2A33FBFC009A618B /* CosmoCareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B7257B2A33FBFC009A618B /* CosmoCareApp.swift */; };
 		D9B7257E2A33FBFC009A618B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B7257D2A33FBFC009A618B /* ContentView.swift */; };
 		D9B725802A33FBFD009A618B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9B7257F2A33FBFD009A618B /* Assets.xcassets */; };
@@ -21,9 +27,15 @@
 
 /* Begin PBXFileReference section */
 		D90CBA462A3455DA00BD0D16 /* DatePicketSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicketSheet.swift; sourceTree = "<group>"; };
-		D90CBA482A34774C00BD0D16 /* CameraDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraDetector.swift; sourceTree = "<group>"; };
 		D90CBA552A3479CF00BD0D16 /* ex-DateComponents.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ex-DateComponents.swift"; sourceTree = "<group>"; };
 		D90CBA572A3479E200BD0D16 /* ex-String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ex-String.swift"; sourceTree = "<group>"; };
+		D90CBA5A2A347A8A00BD0D16 /* DetectorCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectorCamera.swift; sourceTree = "<group>"; };
+		D90CBA5D2A348BC100BD0D16 /* FrameManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FrameManager.swift; sourceTree = "<group>"; };
+		D90CBA5E2A348BC100BD0D16 /* CameraManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+		D90CBA5F2A348BC100BD0D16 /* CameraError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraError.swift; sourceTree = "<group>"; };
+		D90CBA672A348D1800BD0D16 /* ViewModelNew.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelNew.swift; sourceTree = "<group>"; };
+		D90CBA6A2A348D5900BD0D16 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		D90CBA6C2A348E2B00BD0D16 /* ex-CGImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ex-CGImage.swift"; sourceTree = "<group>"; };
 		D9B725782A33FBFC009A618B /* CosmoCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CosmoCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9B7257B2A33FBFC009A618B /* CosmoCareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmoCareApp.swift; sourceTree = "<group>"; };
 		D9B7257D2A33FBFC009A618B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -49,7 +61,7 @@
 			children = (
 				D9B7257D2A33FBFC009A618B /* ContentView.swift */,
 				D90CBA462A3455DA00BD0D16 /* DatePicketSheet.swift */,
-				D90CBA482A34774C00BD0D16 /* CameraDetector.swift */,
+				D90CBA5A2A347A8A00BD0D16 /* DetectorCamera.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -57,7 +69,8 @@
 		D90CBA4B2A34779000BD0D16 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				D90CBA532A34795D00BD0D16 /* ContentView */,
+				D90CBA5C2A347AA000BD0D16 /* m-DetectorCamera */,
+				D90CBA532A34795D00BD0D16 /* m-ContentView */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -65,24 +78,25 @@
 		D90CBA4C2A34779800BD0D16 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
-				D90CBA522A34794A00BD0D16 /* ContentView */,
+				D90CBA592A347A7600BD0D16 /* vm-DetectorCamera */,
+				D90CBA522A34794A00BD0D16 /* vm-ContentView */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
 		};
-		D90CBA522A34794A00BD0D16 /* ContentView */ = {
+		D90CBA522A34794A00BD0D16 /* vm-ContentView */ = {
 			isa = PBXGroup;
 			children = (
 				D9B725892A33FF72009A618B /* MainViewModel.swift */,
 			);
-			path = ContentView;
+			path = "vm-ContentView";
 			sourceTree = "<group>";
 		};
-		D90CBA532A34795D00BD0D16 /* ContentView */ = {
+		D90CBA532A34795D00BD0D16 /* m-ContentView */ = {
 			isa = PBXGroup;
 			children = (
 			);
-			path = ContentView;
+			path = "m-ContentView";
 			sourceTree = "<group>";
 		};
 		D90CBA542A3479A500BD0D16 /* Extentions */ = {
@@ -91,8 +105,35 @@
 				D9B7258C2A33FFC2009A618B /* ex-Date.swift */,
 				D90CBA552A3479CF00BD0D16 /* ex-DateComponents.swift */,
 				D90CBA572A3479E200BD0D16 /* ex-String.swift */,
+				D90CBA6C2A348E2B00BD0D16 /* ex-CGImage.swift */,
 			);
 			path = Extentions;
+			sourceTree = "<group>";
+		};
+		D90CBA592A347A7600BD0D16 /* vm-DetectorCamera */ = {
+			isa = PBXGroup;
+			children = (
+				D90CBA5F2A348BC100BD0D16 /* CameraError.swift */,
+				D90CBA5E2A348BC100BD0D16 /* CameraManager.swift */,
+				D90CBA5D2A348BC100BD0D16 /* FrameManager.swift */,
+				D90CBA672A348D1800BD0D16 /* ViewModelNew.swift */,
+			);
+			path = "vm-DetectorCamera";
+			sourceTree = "<group>";
+		};
+		D90CBA5C2A347AA000BD0D16 /* m-DetectorCamera */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "m-DetectorCamera";
+			sourceTree = "<group>";
+		};
+		D90CBA692A348D4B00BD0D16 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				D90CBA6A2A348D5900BD0D16 /* Constants.swift */,
+			);
+			path = Constants;
 			sourceTree = "<group>";
 		};
 		D9B7256F2A33FBFC009A618B = {
@@ -136,6 +177,7 @@
 		D9B7258B2A33FF9C009A618B /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				D90CBA692A348D4B00BD0D16 /* Constants */,
 				D90CBA542A3479A500BD0D16 /* Extentions */,
 			);
 			path = Helpers;
@@ -212,13 +254,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				D90CBA562A3479CF00BD0D16 /* ex-DateComponents.swift in Sources */,
+				D90CBA622A348BC100BD0D16 /* CameraError.swift in Sources */,
 				D9B7258D2A33FFC2009A618B /* ex-Date.swift in Sources */,
 				D9B7257E2A33FBFC009A618B /* ContentView.swift in Sources */,
+				D90CBA6D2A348E2B00BD0D16 /* ex-CGImage.swift in Sources */,
 				D90CBA582A3479E200BD0D16 /* ex-String.swift in Sources */,
-				D90CBA492A34774C00BD0D16 /* CameraDetector.swift in Sources */,
+				D90CBA612A348BC100BD0D16 /* CameraManager.swift in Sources */,
 				D90CBA472A3455DA00BD0D16 /* DatePicketSheet.swift in Sources */,
+				D90CBA6B2A348D5900BD0D16 /* Constants.swift in Sources */,
+				D90CBA5B2A347A8A00BD0D16 /* DetectorCamera.swift in Sources */,
 				D9B7257C2A33FBFC009A618B /* CosmoCareApp.swift in Sources */,
+				D90CBA602A348BC100BD0D16 /* FrameManager.swift in Sources */,
 				D9B7258A2A33FF72009A618B /* MainViewModel.swift in Sources */,
+				D90CBA682A348D1800BD0D16 /* ViewModelNew.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
