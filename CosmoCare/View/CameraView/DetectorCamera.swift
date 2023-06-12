@@ -8,8 +8,14 @@
 import SwiftUI
 
 struct DetectorCamera: View {
+    @StateObject private var modelViewCamera = ViewModelNew()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        ZStack {
+            FrameView(image: modelViewCamera.frame)
+                .edgesIgnoringSafeArea(.all)
+            CameraControler()
+        }
     }
 }
 

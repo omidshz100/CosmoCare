@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct DatePicketSheet: View {
+    @Environment(\.presentationMode) var presentationMode
     @Binding var date:Date
     @Binding var isShowing:Bool
     var body: some View {
@@ -21,7 +22,8 @@ struct DatePicketSheet: View {
             .toolbar{
                 ToolbarItem(placement: .navigationBarTrailing){
                     Button{
-                        isShowing.toggle()
+                        //isShowing.toggle()
+                        presentationMode.wrappedValue.dismiss()
                     }label: {
                         Text("Done")
                     }

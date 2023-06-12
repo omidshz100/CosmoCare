@@ -14,7 +14,7 @@ struct ContentView: View {
     @State var date:Date = Date()
     
     
-    private var sizeDateItem:CGFloat = 20.0
+    private var fontSize:CGFloat = 16.0
     
         var body: some View {
             NavigationView {
@@ -26,26 +26,30 @@ struct ContentView: View {
                     }
                     .padding()
                     HStack{
-                        Spacer()
+                        //Spacer()
                             ForEach(viewModel.weekDaysGenerator(date: Date())){ date in
                                     if date.component.day! == Date().component.day{
                                         VStack{
                                             Text("\((date.component.getDayName ?? "").firstLetter)")
                                                 .foregroundColor(Color("color-text-dateItem"))
+                                                .font(.system(size: fontSize))
                                         Text("\(date.component.day ?? 0)")
                                                 .foregroundColor(Color("color-text-dateItem"))
+                                                .font(.system(size: fontSize))
                                     }
                                     .padding()
                                     }else{
                                         VStack{
                                             Text("\((date.component.getDayName ?? "").firstLetter)")
                                                 .foregroundColor(Color("color-text"))
+                                                .font(.system(size: fontSize))
                                         Text("\(date.component.day ?? 0)")
+                                                .font(.system(size: fontSize))
                                     }
                                     .padding()
                                 }
                             }
-                        Spacer()
+                        //Spacer()
                     }
                     HStack{
                         Text("Today")
@@ -73,7 +77,7 @@ struct ContentView: View {
                         }label: {
                             Text("Start")
                         }.frame(width: 200, height: 50)
-                            .background(Color.yellow)
+                            .background(Color("color-text-dateItem"))
                             .cornerRadius(20)
                         Spacer()
                     }
@@ -93,7 +97,7 @@ struct ContentView: View {
                         Button {
                             isDarkModeEnabled.toggle()
                         }label: {
-                            Image(systemName: "sun.max")
+                            Image(systemName: isDarkModeEnabled ?  "moon":"sun.max")
                         }
                     }
                 }
