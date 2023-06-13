@@ -19,7 +19,7 @@
 		D90CBA6D2A348E2B00BD0D16 /* ex-CGImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CBA6C2A348E2B00BD0D16 /* ex-CGImage.swift */; };
 		D90CBA702A34C5F500BD0D16 /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CBA6F2A34C5F500BD0D16 /* FrameView.swift */; };
 		D97D20442A34D83000FD8AE5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D97D20432A34D82F00FD8AE5 /* AVFoundation.framework */; };
-		D9B7257C2A33FBFC009A618B /* CosmoCareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B7257B2A33FBFC009A618B /* CosmoCareApp.swift */; };
+		D9B7257C2A33FBFC009A618B /* ShowingProductsDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B7257B2A33FBFC009A618B /* ShowingProductsDetail.swift */; };
 		D9B7257E2A33FBFC009A618B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B7257D2A33FBFC009A618B /* ContentView.swift */; };
 		D9B725802A33FBFD009A618B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9B7257F2A33FBFD009A618B /* Assets.xcassets */; };
 		D9B725832A33FBFD009A618B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9B725822A33FBFD009A618B /* Preview Assets.xcassets */; };
@@ -31,6 +31,10 @@
 		D9E3D5082A36F45D00CCEE56 /* LoadingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E3D5072A36F45D00CCEE56 /* LoadingAnimation.swift */; };
 		D9E3D52D2A3859A300CCEE56 /* UsingProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E3D52C2A3859A300CCEE56 /* UsingProgressView.swift */; };
 		D9E3D52F2A385AE300CCEE56 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E3D52E2A385AE300CCEE56 /* PieChartView.swift */; };
+		D9E3D5322A38BB6000CCEE56 /* ProductReaderFromFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E3D5312A38BB6000CCEE56 /* ProductReaderFromFile.swift */; };
+		D9E3D5382A38BD6B00CCEE56 /* productDetails.json in Resources */ = {isa = PBXBuildFile; fileRef = D9E3D5372A38BD6B00CCEE56 /* productDetails.json */; };
+		D9E3D53A2A38BE4D00CCEE56 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E3D5392A38BE4D00CCEE56 /* Product.swift */; };
+		D9E3D53C2A38BF1500CCEE56 /* ShowingProducts.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E3D53B2A38BF1500CCEE56 /* ShowingProducts.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,7 +52,7 @@
 		D97D20412A34D80400FD8AE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D97D20432A34D82F00FD8AE5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		D9B725782A33FBFC009A618B /* CosmoCare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CosmoCare.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D9B7257B2A33FBFC009A618B /* CosmoCareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CosmoCareApp.swift; sourceTree = "<group>"; };
+		D9B7257B2A33FBFC009A618B /* ShowingProductsDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowingProductsDetail.swift; sourceTree = "<group>"; };
 		D9B7257D2A33FBFC009A618B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D9B7257F2A33FBFD009A618B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D9B725822A33FBFD009A618B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -60,6 +64,10 @@
 		D9E3D5072A36F45D00CCEE56 /* LoadingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingAnimation.swift; sourceTree = "<group>"; };
 		D9E3D52C2A3859A300CCEE56 /* UsingProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingProgressView.swift; sourceTree = "<group>"; };
 		D9E3D52E2A385AE300CCEE56 /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
+		D9E3D5312A38BB6000CCEE56 /* ProductReaderFromFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductReaderFromFile.swift; sourceTree = "<group>"; };
+		D9E3D5372A38BD6B00CCEE56 /* productDetails.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = productDetails.json; sourceTree = "<group>"; };
+		D9E3D5392A38BE4D00CCEE56 /* Product.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		D9E3D53B2A38BF1500CCEE56 /* ShowingProducts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowingProducts.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,13 +85,15 @@
 		D90CBA4A2A34778900BD0D16 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D9E3D53D2A38C82000CCEE56 /* View_SOLID */,
+				D9E3D5302A38BB4700CCEE56 /* ProductShower */,
 				D9E3D5062A36F44A00CCEE56 /* Animations */,
 				D9E3D4E02A35BB7400CCEE56 /* CameraView */,
 				D9E3D4DF2A35BB5C00CCEE56 /* ImagePicker */,
 				D9B7257D2A33FBFC009A618B /* ContentView.swift */,
 				D90CBA462A3455DA00BD0D16 /* DatePicketSheet.swift */,
 				D9E3D52C2A3859A300CCEE56 /* UsingProgressView.swift */,
-				D9E3D52E2A385AE300CCEE56 /* PieChartView.swift */,
+				D9E3D53B2A38BF1500CCEE56 /* ShowingProducts.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -93,6 +103,7 @@
 			children = (
 				D90CBA5C2A347AA000BD0D16 /* m-DetectorCamera */,
 				D90CBA532A34795D00BD0D16 /* m-ContentView */,
+				D9E3D5312A38BB6000CCEE56 /* ProductReaderFromFile.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -117,6 +128,8 @@
 		D90CBA532A34795D00BD0D16 /* m-ContentView */ = {
 			isa = PBXGroup;
 			children = (
+				D9E3D5392A38BE4D00CCEE56 /* Product.swift */,
+				D9E3D5372A38BD6B00CCEE56 /* productDetails.json */,
 			);
 			path = "m-ContentView";
 			sourceTree = "<group>";
@@ -195,7 +208,7 @@
 			children = (
 				D97D20412A34D80400FD8AE5 /* Info.plist */,
 				D90CBA6E2A348FD400BD0D16 /* ML-Zone */,
-				D9B7257B2A33FBFC009A618B /* CosmoCareApp.swift */,
+				D9B7257B2A33FBFC009A618B /* ShowingProductsDetail.swift */,
 				D9B7257F2A33FBFD009A618B /* Assets.xcassets */,
 				D90CBA4A2A34778900BD0D16 /* View */,
 				D90CBA4C2A34779800BD0D16 /* ViewModel */,
@@ -248,6 +261,21 @@
 				D9E3D5072A36F45D00CCEE56 /* LoadingAnimation.swift */,
 			);
 			path = Animations;
+			sourceTree = "<group>";
+		};
+		D9E3D5302A38BB4700CCEE56 /* ProductShower */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ProductShower;
+			sourceTree = "<group>";
+		};
+		D9E3D53D2A38C82000CCEE56 /* View_SOLID */ = {
+			isa = PBXGroup;
+			children = (
+				D9E3D52E2A385AE300CCEE56 /* PieChartView.swift */,
+			);
+			path = View_SOLID;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,6 +338,7 @@
 			files = (
 				D9B725832A33FBFD009A618B /* Preview Assets.xcassets in Resources */,
 				D9B725802A33FBFD009A618B /* Assets.xcassets in Resources */,
+				D9E3D5382A38BD6B00CCEE56 /* productDetails.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -323,7 +352,9 @@
 				D9E3D52F2A385AE300CCEE56 /* PieChartView.swift in Sources */,
 				D90CBA562A3479CF00BD0D16 /* ex-DateComponents.swift in Sources */,
 				D9CBBA452A34D4AB00FAABB9 /* CameraControler.swift in Sources */,
+				D9E3D53C2A38BF1500CCEE56 /* ShowingProducts.swift in Sources */,
 				D90CBA622A348BC100BD0D16 /* CameraError.swift in Sources */,
+				D9E3D5322A38BB6000CCEE56 /* ProductReaderFromFile.swift in Sources */,
 				D9E3D4DC2A359D7600CCEE56 /* ImagePicker.swift in Sources */,
 				D9B7258D2A33FFC2009A618B /* ex-Date.swift in Sources */,
 				D9E3D5082A36F45D00CCEE56 /* LoadingAnimation.swift in Sources */,
@@ -331,13 +362,14 @@
 				D9B7257E2A33FBFC009A618B /* ContentView.swift in Sources */,
 				D9E3D52D2A3859A300CCEE56 /* UsingProgressView.swift in Sources */,
 				D90CBA6D2A348E2B00BD0D16 /* ex-CGImage.swift in Sources */,
+				D9E3D53A2A38BE4D00CCEE56 /* Product.swift in Sources */,
 				D90CBA582A3479E200BD0D16 /* ex-String.swift in Sources */,
 				D90CBA612A348BC100BD0D16 /* CameraManager.swift in Sources */,
 				D90CBA472A3455DA00BD0D16 /* DatePicketSheet.swift in Sources */,
 				D90CBA6B2A348D5900BD0D16 /* Constants.swift in Sources */,
 				D90CBA5B2A347A8A00BD0D16 /* DetectorCamera.swift in Sources */,
 				D9E3D4DE2A359DF200CCEE56 /* IMG.swift in Sources */,
-				D9B7257C2A33FBFC009A618B /* CosmoCareApp.swift in Sources */,
+				D9B7257C2A33FBFC009A618B /* ShowingProductsDetail.swift in Sources */,
 				D90CBA602A348BC100BD0D16 /* FrameManager.swift in Sources */,
 				D9B7258A2A33FF72009A618B /* MainViewModel.swift in Sources */,
 				D90CBA682A348D1800BD0D16 /* ViewModelNew.swift in Sources */,

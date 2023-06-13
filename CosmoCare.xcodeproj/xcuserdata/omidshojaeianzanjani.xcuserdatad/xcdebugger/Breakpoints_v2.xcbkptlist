@@ -3,4 +3,54 @@
    uuid = "7B90A5F1-5BF2-414A-BB62-97BC8FAAA680"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5DA75458-1BCC-42FE-9D7E-9B1A051F1D09"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CosmoCare/Model/productDetails.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "readProductDetailsFromJSON()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5DA75458-1BCC-42FE-9D7E-9B1A051F1D09 - 26dea7bb4a92447f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CosmoCare.ProductReaderFromFile.readProductDetailsFromJSON() -&gt; ()"
+                  moduleName = "CosmoCare"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/omidshojaeianzanjani/Desktop/projects/swifts/microchalenge/CosmoCare/CosmoCare/Model/productDetails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "160">
+               </Location>
+               <Location
+                  uuid = "5DA75458-1BCC-42FE-9D7E-9B1A051F1D09 - 26dea7bb4a92447f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CosmoCare.ProductReaderFromFile.readProductDetailsFromJSON() -&gt; ()"
+                  moduleName = "CosmoCare"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/omidshojaeianzanjani/Desktop/projects/swifts/microchalenge/CosmoCare/CosmoCare/Model/productDetails.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "416">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>
