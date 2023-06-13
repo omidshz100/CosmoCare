@@ -29,6 +29,8 @@
 		D9E3D4DC2A359D7600CCEE56 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E3D4DB2A359D7600CCEE56 /* ImagePicker.swift */; };
 		D9E3D4DE2A359DF200CCEE56 /* IMG.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E3D4DD2A359DF200CCEE56 /* IMG.swift */; };
 		D9E3D5082A36F45D00CCEE56 /* LoadingAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E3D5072A36F45D00CCEE56 /* LoadingAnimation.swift */; };
+		D9E3D52D2A3859A300CCEE56 /* UsingProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E3D52C2A3859A300CCEE56 /* UsingProgressView.swift */; };
+		D9E3D52F2A385AE300CCEE56 /* PieChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E3D52E2A385AE300CCEE56 /* PieChartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +58,8 @@
 		D9E3D4DB2A359D7600CCEE56 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		D9E3D4DD2A359DF200CCEE56 /* IMG.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IMG.swift; sourceTree = "<group>"; };
 		D9E3D5072A36F45D00CCEE56 /* LoadingAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingAnimation.swift; sourceTree = "<group>"; };
+		D9E3D52C2A3859A300CCEE56 /* UsingProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsingProgressView.swift; sourceTree = "<group>"; };
+		D9E3D52E2A385AE300CCEE56 /* PieChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieChartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,8 @@
 				D9E3D4DF2A35BB5C00CCEE56 /* ImagePicker */,
 				D9B7257D2A33FBFC009A618B /* ContentView.swift */,
 				D90CBA462A3455DA00BD0D16 /* DatePicketSheet.swift */,
+				D9E3D52C2A3859A300CCEE56 /* UsingProgressView.swift */,
+				D9E3D52E2A385AE300CCEE56 /* PieChartView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -314,6 +320,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9E3D52F2A385AE300CCEE56 /* PieChartView.swift in Sources */,
 				D90CBA562A3479CF00BD0D16 /* ex-DateComponents.swift in Sources */,
 				D9CBBA452A34D4AB00FAABB9 /* CameraControler.swift in Sources */,
 				D90CBA622A348BC100BD0D16 /* CameraError.swift in Sources */,
@@ -322,6 +329,7 @@
 				D9E3D5082A36F45D00CCEE56 /* LoadingAnimation.swift in Sources */,
 				D90CBA702A34C5F500BD0D16 /* FrameView.swift in Sources */,
 				D9B7257E2A33FBFC009A618B /* ContentView.swift in Sources */,
+				D9E3D52D2A3859A300CCEE56 /* UsingProgressView.swift in Sources */,
 				D90CBA6D2A348E2B00BD0D16 /* ex-CGImage.swift in Sources */,
 				D90CBA582A3479E200BD0D16 /* ex-String.swift in Sources */,
 				D90CBA612A348BC100BD0D16 /* CameraManager.swift in Sources */,

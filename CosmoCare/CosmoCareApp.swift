@@ -11,7 +11,7 @@ import SwiftUI
 struct CosmoCareApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            UsingProgressView()
         }
     }
 }
